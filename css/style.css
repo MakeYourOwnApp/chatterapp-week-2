@@ -1,0 +1,98 @@
+/* GLOBAL */
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* APP BAR */
+
+.headbar {
+    background-color: #eeeeee;
+    color: #00838f;
+    height: 66px;
+    line-height: 66px;
+    padding: 0px 22px 0px 22px;
+}
+
+.headbar img {
+    background-color: #00838f;
+}
+h1 {
+    font-size: 18px;
+}
+
+
+/* CHANNELS LIST */
+
+ul {
+    /* #3 #channels #list modifies h2 to ul */
+    background-color: white;
+    /* #3 #channels #bullets removed */
+    list-style-type: none;
+}
+
+li {
+    box-sizing: border-box;
+    padding: 22px;
+    height: 66px;
+}
+
+li.selected {
+    background-color: #eeeeee;
+    border-right: 3px solid #00838f;
+}
+
+h2 {
+    color: #00838f;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 22px 22px 11px 11px; 
+}
+
+/* MESSAGES */
+
+
+
+.message {
+    width: 75%;
+}
+
+.message-content {
+    padding: 11px;
+    margin: 10px 11px;
+    text-align: left;
+}
+
+.message-content h3 {
+    font-size: 14px;
+    color: #00838f;
+    margin-bottom: 11px;
+}
+
+.message-content p {
+    font-size: 14px;
+}
+
+.incoming-message .message-content {
+    background-color: #eeeeee;
+}
+
+.outgoing-message .message-content {
+    background-color: #00838f;
+    color: white;
+}
+
+/* MESSAGE-BUTTONS */
+
+button {
+    background-color: #00838f;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: larger;
+}
