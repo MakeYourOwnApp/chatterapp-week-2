@@ -6,6 +6,8 @@
 body {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* APP BAR */
@@ -28,24 +30,6 @@ h1 {
 
 /* CHANNELS LIST */
 
-ul {
-    /* #3 #channels #list modifies h2 to ul */
-    background-color: white;
-    /* #3 #channels #bullets removed */
-    list-style-type: none;
-}
-
-li {
-    box-sizing: border-box;
-    padding: 22px;
-    height: 66px;
-}
-
-li.selected {
-    background-color: #eeeeee;
-    border-right: 3px solid #00838f;
-}
-
 h2 {
     color: #00838f;
     font-size: 12px;
@@ -54,6 +38,26 @@ h2 {
     font-weight: bold;
     margin: 22px 22px 11px 11px; 
 }
+
+.channel-list {
+    /* #3 #channels #list modifies h2 to ul */
+    background-color: white;
+    /* #3 #channels #bullets removed */
+    list-style-type: none;
+}
+
+.channel-list li {
+    box-sizing: border-box;
+    padding: 22px;
+    height: 66px;
+}
+
+.channel-list li.selected {
+    background-color: #eeeeee;
+    border-right: 3px solid #00838f;
+}
+
+
 
 /* MESSAGES */
 
@@ -86,6 +90,11 @@ h2 {
 .outgoing-message .message-content {
     background-color: #00838f;
     color: white;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #666666;
 }
 
 /* MESSAGE-BUTTONS */
