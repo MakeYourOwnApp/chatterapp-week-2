@@ -30,6 +30,10 @@ section {
     background-color: #00838f;
 }
 
+#app-title {
+    color: #00838f;
+}
+
 h1 {
     font-size: 18px;
 }
@@ -38,6 +42,10 @@ h1 {
     width: 399px;
     height: 100vh;
     border-right: 1px solid rgb(199, 199, 199);
+}
+
+.headbar i {
+    line-height: 66px;
 }
 
 #message-area {
@@ -75,7 +83,9 @@ h2 {
 }
 
 /* MESSAGES */
-
+#message-area h1 {
+    display: inline;
+}
 .message {
     width: 75%;
 }
