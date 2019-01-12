@@ -1,13 +1,19 @@
 /* GLOBAL */
 * {
     font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
+}
+
+section {    
+    position: fixed;
+    top: 0px;
+    height: 100vh;
 }
 
 /* APP BAR */
@@ -23,10 +29,21 @@ body {
 .headbar img {
     background-color: #00838f;
 }
+
 h1 {
     font-size: 18px;
 }
 
+#channel-area {
+    width: 399px;
+    height: 100vh;
+    border-right: 1px solid rgb(199, 199, 199);
+}
+
+#message-area {
+    width: calc(100% - 400px);
+    left: 400px;
+}
 
 /* CHANNELS LIST */
 
@@ -57,11 +74,7 @@ h2 {
     border-right: 3px solid #00838f;
 }
 
-
-
 /* MESSAGES */
-
-
 
 .message {
     width: 75%;
