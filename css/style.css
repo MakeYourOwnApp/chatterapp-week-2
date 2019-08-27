@@ -16,6 +16,16 @@ section {
     height: 100vh;
 }
 
+#channel-area {
+    width: 399px;
+    height: 100vh;
+    border-right: 1px solid rgb(199, 199, 199);
+}
+
+#message-area {
+    width: calc(100% - 400px);
+    left: 400px;
+}
 /* APP BAR */
 
 .headbar {
@@ -38,20 +48,10 @@ h1 {
     font-size: 18px;
 }
 
-#channel-area {
-    width: 399px;
-    height: 100vh;
-    border-right: 1px solid rgb(199, 199, 199);
-}
-
 .headbar i {
     line-height: 66px;
 }
 
-#message-area {
-    width: calc(100% - 400px);
-    left: 400px;
-}
 
 /* CHANNELS LIST */
 
